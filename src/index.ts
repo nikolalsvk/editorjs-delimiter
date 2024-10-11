@@ -72,7 +72,7 @@ export default class Delimiter implements BlockTool {
    */
   static get toolbox() {
     return {
-      icon: delimiterIcon,
+      icon: delimiterIcon(),
       title: "Delimiter",
     };
   }
