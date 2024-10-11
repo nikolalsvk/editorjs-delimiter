@@ -1,0 +1,52 @@
+{
+  "name": "@pragmaticpineapple/editorjs-delimiter",
+  "description": "Delimiter tool for Editor.js",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/nikolalsvk/editorjs-delimiter",
+  "license": "MIT",
+  "author": {
+    "name": "Nikola Đuza",
+    "email": "nikola@pragmaticpineapple.com"
+  },
+  "keywords": [
+    "editor.js",
+    "editorjs",
+    "codex editor",
+    "delimiter"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/delimiter.umd.js",
+  "module": "./dist/delimiter.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/delimiter.mjs",
+      "require": "./dist/delimiter.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "pnpm install && pnpm vite build",
+    "ready": "npm login"
+  },
+  "bugs": {
+    "url": "https://github.com/nikolalsvk/editorjs-delimiter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolalsvk/editorjs-delimiter.git"
+  },
+  "devDependencies": {
+    "@editorjs/editorjs": "^2.30.6",
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.2.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
