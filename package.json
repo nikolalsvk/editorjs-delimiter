@@ -1,14 +1,11 @@
 {
   "name": "@pragmaticpineapple/editorjs-delimiter",
   "description": "Delimiter tool for Editor.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "homepage": "https://github.com/nikolalsvk/editorjs-delimiter",
   "license": "MIT",
-  "author": {
-    "name": "Nikola Đuza",
-    "email": "nikola@pragmaticpineapple.com"
-  },
+  "author": "Nikola Đuza <nikola@pragmaticpineapple.com>",
   "keywords": [
     "editor.js",
     "editorjs",
